@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Agil - Back End Developer</title>
+  <meta name="title" content="Agil - Back End Developer">
+  <meta name="description" content="Personal portfolio website">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon-v2.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/require.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/pages/portfolio.css">
+  <link rel="stylesheet" href="./assets/css/pages/contact.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" href="./assets/images/hero-banner.png">
+
+</head>
+
+<body>
+
+
+  <!-- 
+    - #PRELOADER
+  -->
+  <div class="preloader" data-preloader>
+    <div class="preloader-circle"></div>
+  </div>
+
+
+  <!-- 
+    - #HEADER
+  -->
+  <header class="header" data-header>
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="./assets/images/logo/logo-web-profile-v3.svg" width="151" height="28" alt="Annie home">
+      </a>
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="#" class="label-lg navbar-link has-after">Home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#about" class="label-lg navbar-link has-after">About</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#skill" class="label-lg navbar-link has-after">Skills</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#portfolio" class="label-lg navbar-link has-after">Portfolio</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#contact" class="label-lg navbar-link has-after">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="./assets/document/CV_Bayu_Agil_Prananda.pdf" class="btn btn-primary" target="_top" download>Download CV</a>
+      <button class="nav-toggle-btn" aria-label="menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+    </div>
+  </header>
+
+
+  <main>
+    <article>
+      <!-- 
+        - #HERO
+      -->
+      <section class="section hero" aria-label="home">
+        <div class="container">
+          <div class="hero-content">
+            <p class="hero-subtitle">My name is Agil 🙌</p>
+            <h1 class="headline-lg">I'm a Back End Developer</h1>
+            <p class="hero-text body-md">
+              Malang, Indonesia.
+            </p>
+            <a href="#about" class="btn btn-primary">About Me</a>
+          </div>
+          <figure class="hero-banner">
+            <img src="./assets/images/banner/banner-01-v2.svg" width="650" height="650"
+              alt="Agil-2D-character" class="w-100">
+          </figure>
+        </div>
+      </section>
+
+
+      <!-- 
+        - #ABOUT
+      -->
+      <section class="section about" id="about" aria-label="about me">
+        <div class="container">
+          <figure class="about-banner">
+            <img src="./assets/images/banner/banner-02-v3.svg" width="580" height="554" loading="lazy"
+              alt="Agil-tag" class="w-100">
+          </figure>
+          <div class="about-content">
+            <h2 class="title-lg" style="color: var(--jet);">I'm a Back End Developer with over 2 years of experience.</h2>
+            <p class="body-md section-text">
+              Skilled Backend Developer with 2+ years of experience in developing and maintaining 
+              server-side applications. Excellent problem-solver with attention to detail, 
+              commitment to continuous learning, and easily adaptable.
+            </p>
+            <div class="wrapper">
+              <a href="#contact" class="btn btn-primary">Contact Me</a>
+              <a href="#portfolio" class="btn btn-secondary">Portfolio</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- 
+        - #SKILL
+      -->
+      <section class="section skill" id="skill" aria-labelledby="skill-label">
+        <div class="container">
+          <div class="skill-content">
+            <h2 class="section-title headline-md" id="skill-label">My Skills</h2>
+            <ul class="skill-list">
+              <li>
+                <div class="card card-sm">
+                  <div class="card-media">
+                    <img class="skill-logo" src="./assets/images/logo/logo-javascript.svg" alt="logo-javascript">
+                  </div>
+                  <h2 class="card-title">JavaScript</h2>
+                </div>
+              </li>
+              <li>
+                <div class="card card-sm">
+                  <div class="card-media">
+                    <img class="skill-logo" src="./assets/images/logo/logo-nodejs.svg" alt="logo-nodejs">
+                  </div>
+                  <h2 class="card-title">Node.js</h2>
+                </div>
+              </li>
+              <li>
+                <div class="card card-sm">
+                  <div class="card-media">
+                    <img class="skill-logo" src="./assets/images/logo/logo-express.svg" alt="logo-express">
+                  </div>
+                  <h2 class="card-title">Express.js</h2>
+                </div>
+              </li>
+              <li>
+                <div class="card card-sm">
+                  <div class="card-media">
+                    <img class="skill-logo" src="./assets/images/logo/logo-c-sharp.svg" alt="logo-c-sharp">
+                  </div>
+                  <h2 class="card-title">C#</h2>
+                </div>
+              </li>
+              <li>
+                <div class="card card-sm">
+                  <div class="card-media">
+                    <img class="skill-logo" src="./assets/images/logo/logo-dot-net-core.svg" alt="logo-dot-net-core">
+                  </div>
+                  <h2 class="card-title">ASP.NET Core</h2>
+                </div>
+              </li>
+              <li>
+                <div class="card card-sm">
+                  <div class="card-media">
+                    <img class="skill-logo" src="./assets/images/logo/logo-mysql.svg" alt="logo-mysql">
+                  </div>
+                  <h2 class="card-title">MySQL</h2>
+                </div>
+              </li>
+              <li>
+                <div class="card card-sm">
+                  <div class="card-media">
+                    <img class="skill-logo" src="./assets/images/logo/logo-postgresql.svg" alt="logo-postgresql">
+                  </div>
+                  <h2 class="card-title">PostgreSQL</h2>
+                </div>
+              </li>
+              <li>
+                <div class="card card-sm">
+                  <div class="card-media">
+                    <img class="skill-logo" src="./assets/images/logo/logo-microsoft-sql-server.svg" alt="logo-microsoft-sql-server">
+                  </div>
+                  <h2 class="card-title">MSSQL Server</h2>
+                </div>
+              </li>
+              <li>
+                <div class="card card-sm">
+                  <div class="card-media">
+                    <img class="skill-logo" src="./assets/images/logo/logo-docker.svg" alt="logo-docker">
+                  </div>
+                  <h2 class="card-title">Docker</h2>
+                </div>
+              </li>
+              <li>
+                <div class="card card-sm">
+                  <div class="card-media">
+                    <img class="skill-logo" src="./assets/images/logo/logo-git.svg" alt="logo-git">
+                  </div>
+                  <h2 class="card-title">Git Version Control</h2>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <figure class="skill-banner">
+            <img src="./assets/images/banner/banner-03.svg" width="680" height="680" loading="lazy"
+              alt="Computer-dev" class="w-100">
+          </figure>
+        </div>
+      </section>
+
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+      <section class="section portfolio" id="portfolio" aria-labelledby="portfolio-label">
+        <div class="container">
+          <h2 class="section-title headline-md text-center" id="portfolio-label" style="color: var(--jet);">My Portfolio</h2>
+          <ul class="portfolio-list">
+            <li>
+              <div class="portfolio-card">
+                <div class="card-banner img-holder" style="--width: 800; --height: 540;">
+                  <img src="./assets/images/portfolio/portfolio-01.jpg" width="800" height="540" loading="lazy"
+                    alt="Website Design for Marketing Agency Startup" class="img-cover">
+                  <a href="#" class="btn-icon" aria-label="More about Website Design for Marketing Agency Startup">
+                    <ion-icon name="arrow-forward-sharp" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+                <div class="card-content">
+                  <span class="chip label-md">Backend Development</span>
+                  <h3 class="title-md portfolio-title">Yacked API</h3>
+                  <p class="card-text">
+                    I develop services for myself project Yacked App (simple app like twitter), 
+                    specializing in creating RESTful API, manage database, 
+                    and creating documentation API
+                  </p>
+                  <p class="card-text role btn btn-primary">Role: Backend Developer</p>
+                  <p class="card-text tech-stack btn btn-secondary">Tech stack: Node.js, Express.js, PostgreSQL, Prisma ORM, Docker</p>
+                  <!-- <a href="#" class="btn btn-primary">View Project</a> -->
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="portfolio-card">
+                <div class="card-banner img-holder" style="--width: 800; --height: 540;">
+                  <img src="./assets/images/portfolio/portfolio-02.png" width="800" height="540" loading="lazy"
+                    alt="Website Design for Marketing Agency Startup" class="img-cover">
+                  <a href="#" class="btn-icon" aria-label="More about Website Design for Marketing Agency Startup">
+                    <ion-icon name="arrow-forward-sharp" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+                <div class="card-content">
+                  <span class="chip label-md">Backend Development</span>
+                  <h3 class="title-md portfolio-title">Production Enterprise (PT Bio Farma)</h3>
+                  <p class="card-text">
+                    I developed RESTful APIs to ensure seamless integration with frontend applications, 
+                    managed databases MSSQL Server to optimize queries and maintain data integrity, 
+                    integrated various web services to fetch and process data, 
+                    helped troubleshoot (resolve bugs, performance issues, and application stability), 
+                    implemented CI/CD pipelines using GitLab CI/CD to automate deployment processes, 
+                    created and managed schedulers using Windows Task Scheduler to automate tasks.
+                  </p>
+                  <p class="card-text role btn btn-primary">Role: Backend Developer</p>
+                  <p class="card-text tech-stack btn btn-secondary">Tech stack: ASP.NET Core, MSSQL Server</p>
+                  <!-- <a href="#" class="btn btn-primary">View Project</a> -->
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="portfolio-card">
+                <div class="card-banner img-holder" style="--width: 800; --height: 540;">
+                  <img src="./assets/images/portfolio/portfolio-03.png" width="800" height="540" loading="lazy"
+                    alt="Website Design for Marketing Agency Startup" class="img-cover">
+                  <a href="#" class="btn-icon" aria-label="More about Website Design for Marketing Agency Startup">
+                    <ion-icon name="arrow-forward-sharp" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+                <div class="card-content">
+                  <span class="chip label-md">Backend Development</span>
+                  <h3 class="title-md portfolio-title">Q100+ Apps (PT Bio Farma)</h3>
+                  <p class="card-text">
+                    I developed RESTful APIs to ensure seamless integration with frontend applications,
+                    managed databases PostgreSQL to optimize queries and maintain data integrity,
+                    and helped troubleshoot and resolve bugs.
+                  </p>
+                  <p class="card-text role btn btn-primary">Role: Backend Developer</p>
+                  <p class="card-text tech-stack btn btn-secondary">Tech stack: ASP.NET Core, PostgreSQL</p>
+                  <!-- <a href="#" class="btn btn-primary">View Project</a> -->
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="portfolio-card">
+                <div class="card-banner img-holder" style="--width: 800; --height: 540;">
+                  <img src="./assets/images/portfolio/portfolio-04.jpeg" width="800" height="540" loading="lazy"
+                    alt="Website Design for Marketing Agency Startup" class="img-cover">
+                  <a href="#" class="btn-icon" aria-label="More about Website Design for Marketing Agency Startup">
+                    <ion-icon name="arrow-forward-sharp" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+                <div class="card-content">
+                  <span class="chip label-md">Backend Development</span>
+                  <h3 class="title-md portfolio-title">Message Board App</h3>
+                  <p class="card-text">
+                    I developed RESTful APIs to support message board features, 
+                    created API documentation using Swagger for a clear and comprehensive reference,
+                    implement containerization using Docker for consistent development and deployment environments,
+                    and deployed the API to Heroku cloud hosting.
+                  </p>
+                  <p class="card-text role btn btn-primary">Role: Backend Developer</p>
+                  <p class="card-text tech-stack btn btn-secondary">Tech stack: Flask, PostgreSQL, Docker</p>
+                  <!-- <a href="#" class="btn btn-primary">View Project</a> -->
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+
+      <!-- 
+        - #CONTACT
+      -->
+      <section class="section contact has-bg-image" id="contact" aria-labelledby="contact-label">
+        <h2 class="section-title headline-md text-center" id="portfolio-label" style="color: var(--white)">Contact</h2>
+        <div class="container">
+          <form action="" class="contact-form">
+            <h2 class="headline-sm" id="contact-label">Get in touch</h2>
+            <p class="contact-text body-md">
+              Our friendly team would love to hear from you.
+            </p>
+            <div class="wrapper">
+              <div>
+                <label for="name" class="label">First name</label>
+                <input type="text" name="name" id="name" placeholder="Name *" required class="input-field">
+              </div>
+              <div>
+                <label for="email" class="label">Your Email </label>
+                <input type="email" name="email" id="email" placeholder="Email *" required class="input-field">
+              </div>
+            </div>
+            <label for="subject" class="label">Subject</label>
+            <input type="text" name="subject" id="subject" placeholder="Subject *" class="input-field">
+            <label for="message" class="label">Your message </label>
+            <textarea name="message" id="message" placeholder="Your message *" required class="input-field"></textarea>
+            <a href="#" class="btn btn-primary">Send Message</a>
+          </form>
+          <div class="contact-content">
+            <ul class="contact-list">
+              <li class="contact-item">
+                <div class="item-icon">
+                  <ion-icon name="call" aria-hidden="true"></ion-icon>
+                </div>
+                <div>
+                  <p class="label-lg">Phone</p>
+                  <a href="tel:+6285815334190" class="body-lg">+62 858 1533 4190</a>
+                </div>
+              </li>
+              <li class="contact-item">
+                <div class="item-icon">
+                  <ion-icon name="mail" aria-hidden="true"></ion-icon>
+                </div>
+                <div>
+                  <p class="label-lg">Mail</p>
+                  <a href="mailto:bayuagil04@gmail.com" class="body-lg">bayuagil04@gmail.com</a>
+                </div>
+              </li>
+              <li class="contact-item">
+                <div class="item-icon">
+                  <ion-icon name="location" aria-hidden="true"></ion-icon>
+                </div>
+                <div>
+                  <p class="label-lg">Address</p>
+                  <address class="body-lg">
+                    Malang,
+                    Indonesia
+                  </address>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
+
+
+  <!-- 
+    - #FOOTER
+  -->
+  <footer class="footer">
+    <div class="container">
+      <ul class="social-list">
+        <li>
+          <a href="https://github.com/Agilbay04" target="_blank" class="social-link">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="https://gitlab.com/agil.bayu" target="_blank" class="social-link">
+            <ion-icon name="logo-gitlab"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/bayu-agil-prananda-0323a8197/" target="_blank" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+      </ul>
+      <p class="text-center">&copy; 2024 copyright all right reserved</p>
+    </div>
+  </footer>
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

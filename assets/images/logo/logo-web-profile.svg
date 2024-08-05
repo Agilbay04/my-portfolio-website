@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="141.4444mm"
+   height="65.135132mm"
+   viewBox="0 0 141.44439 65.135133"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="logo.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showguides="false">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="141.44438"
+       height="65.135132"
+       id="page15"
+       margin="0"
+       bleed="0"
+       inkscape:export-filename="logo-web-profile.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-76.749685,-106.8721)">
+    <g
+       id="g17"
+       transform="translate(-16.828469,0.36511804)">
+      <g
+         id="g19"
+         transform="translate(2.0001485,0.36512388)">
+        <rect
+           style="fill:#90e0ef;fill-opacity:1;stroke-width:0.0198185"
+           id="rect12"
+           width="68.291473"
+           height="59.830391"
+           x="96.795265"
+           y="108.79423"
+           ry="5.2568417" />
+        <g
+           id="g18">
+          <path
+             style="font-size:47.9275px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code, @wght=700';font-variation-settings:'wght' 700;fill:#383838;stroke-width:0.045"
+             d="m 122.38593,148.16312 h -9.72929 l -1.74935,7.16516 h -8.21957 l 10.16063,-33.21376 h 9.53758 l 10.16063,33.21376 h -8.41128 z m -8.48317,-5.70338 h 7.18913 l -3.59457,-14.68977 z m 33.66909,13.68331 q -4.72086,0 -7.95597,-1.989 -3.2351,-2.01295 -4.91257,-5.89508 -1.65349,-3.90609 -1.65349,-9.60946 0,-4.24159 1.17422,-7.47669 1.19819,-3.25907 3.307,-5.43977 2.10881,-2.20467 4.91257,-3.33096 2.80375,-1.1263 6.03886,-1.1263 3.64249,0 6.13472,1.1263 2.49223,1.12629 4.43329,2.9715 l -4.12176,4.26555 q -1.50972,-1.34197 -2.89961,-1.98899 -1.3899,-0.64702 -3.16322,-0.64702 -1.67746,0 -3.09132,0.67098 -1.3899,0.64702 -2.44431,2.06088 -1.03044,1.3899 -1.60557,3.61853 -0.57513,2.20466 -0.57513,5.34392 0,4.33743 0.69495,6.90156 0.71891,2.56412 2.15674,3.69041 1.43782,1.10234 3.64249,1.10234 1.17422,0 2.20466,-0.26361 1.03045,-0.28756 1.9171,-0.74287 v -7.59651 h -4.16969 l -0.76684,-5.51166 h 12.3653 v 16.51102 q -2.49223,1.53368 -5.36788,2.4443 -2.85169,0.91063 -6.25454,0.91063 z"
+             id="text16"
+             aria-label="AG" />
+          <path
+             style="font-size:47.9275px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code, @wght=700';font-variation-settings:'wght' 700;fill:#ffffff;stroke-width:0.045"
+             d="m 197.49098,122.10254 v 5.7513 h -6.85363 v 21.6872 h 6.85363 v 5.77526 H 175.9236 v -5.77526 h 6.85364 v -21.6872 h -6.85364 v -5.7513 z m 8.05184,33.21376 v -33.21376 h 7.86011 v 27.00715 h 14.40221 l -0.81477,6.20661 z"
+             id="text16-0"
+             aria-label="IL" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
