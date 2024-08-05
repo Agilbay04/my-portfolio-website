@@ -26,15 +26,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.4894542"
-     inkscape:cx="1193.1658"
-     inkscape:cy="430.07089"
+     inkscape:zoom="0.2447271"
+     inkscape:cx="972.51184"
+     inkscape:cy="2396.547"
      inkscape:window-width="1920"
      inkscape:window-height="991"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g346"><inkscape:page
+     inkscape:current-layer="layer8"><inkscape:page
        x="-8.2828919e-06"
        y="-1.1701395e-06"
        width="190.28465"
@@ -50,17 +50,12 @@
      id="layer5"
      inkscape:label="Layer 3"
      transform="matrix(1.1022363,0,0,1.1022363,-85.148966,-230.3574)"><g
-       id="g349"><text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.9691px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.55774;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         x="153.14787"
-         y="249.27393"
-         id="text347"><tspan
-           sodipodi:role="line"
-           id="tspan347"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.9691px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.55774;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-           x="153.14787"
-           y="249.27393">AGIL</tspan></text><g
+       id="g1"
+       transform="translate(0.38943251)"><path
+         d="m 168.33551,243.59755 h -7.70772 l -1.38588,5.67638 h -6.5117 l 8.04945,-26.31259 h 7.55585 l 8.04945,26.31259 h -6.66357 z m -6.72053,-4.51833 h 5.69537 l -2.84768,-11.63753 z m 26.67331,10.84018 q -3.73996,0 -6.30287,-1.57572 -2.56291,-1.5947 -3.89183,-4.6702 -1.30994,-3.09448 -1.30994,-7.6128 0,-3.36027 0.93025,-5.92318 0.94922,-2.5819 2.61986,-4.30949 1.67064,-1.74658 3.89184,-2.63886 2.22119,-0.89227 4.7841,-0.89227 2.88565,0 4.86005,0.89227 1.97439,0.89228 3.51214,2.35409 l -3.26534,3.37925 q -1.19603,-1.06314 -2.29713,-1.57572 -1.10111,-0.51258 -2.50596,-0.51258 -1.32892,0 -2.44901,0.53156 -1.1011,0.51259 -1.93643,1.63268 -0.81633,1.1011 -1.27196,2.86666 -0.45563,1.74658 -0.45563,4.23356 0,3.4362 0.55055,5.46755 0.56954,2.03135 1.70861,2.92362 1.13908,0.87329 2.88565,0.87329 0.93025,0 1.74658,-0.20883 0.81634,-0.22782 1.51877,-0.58852 v -6.01811 h -3.30332 l -0.6075,-4.36644 h 9.79603 v 13.08035 q -1.9744,1.21501 -4.25254,1.93643 -2.25916,0.72141 -4.95497,0.72141 z m 30.35631,-26.95806 v 4.55629 h -5.42958 v 17.18102 h 5.42958 v 4.57528 h -17.08609 v -4.57528 h 5.42958 v -17.18102 h -5.42958 v -4.55629 z m 6.37882,26.31259 v -26.31259 h 6.22693 v 21.39559 h 11.40972 l -0.64548,4.917 z"
+         id="text347"
+         style="font-size:37.9691px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code, @wght=700';font-variation-settings:'wght' 700;fill:#ffffff;stroke-width:1.55774;stroke-linecap:round;stroke-linejoin:round"
+         aria-label="AGIL" /><g
          id="g348"
          transform="translate(-48.062071)"><rect
            style="font-variation-settings:'wght' 700;fill:#383838;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.27167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
